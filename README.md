@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I’m @HUZAIFANVM, a passionate Data Science enthusiast currently pursuing a BS in Computer Science (Data Science) at NED University.
+I’m @HUZAIFA, a passionate Data Science enthusiast currently pursuing a BS in Computer Science (Data Science) at NED University.
 
 - 👀 I’m interested in leveraging data to uncover insights and drive innovation, with a strong focus on machine learning, AI, and data analysis.
 - 🌱 I’m currently learning advanced techniques in Python, SQL, Pandas, Matplotlib, Seaborn, and Scikit-learn.
