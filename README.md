@@ -1,75 +1,73 @@
-<!-- ── Animated header banner ─────────────────────────────────────────── -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Muhammad%20Huzaifa%20bin%20Salman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Junior%20AI%20Engineer&descAlignY=56&descSize=18" alt="header">
+<!-- ── Bespoke animated hero (assets/hero.svg, hand-authored SMIL) ────── -->
+<img width="100%" src="https://raw.githubusercontent.com/HUZAIFANVM/HUZAIFANVM/main/assets/hero.svg" alt="Muhammad Huzaifa bin Salman — Junior AI Engineer">
 
-<!-- ── Animated typing line ───────────────────────────────────────────── -->
 <p align="center">
-  <a href="https://github.com/HUZAIFANVM">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=720&lines=RAG+%26+AI+Orchestration;Retrieval+pipelines+and+LLM+applications;Speech+%26+Applied+Machine+Learning;Production+ML+%E2%80%94+not+just+notebooks" alt="typing">
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=760&lines=Retrieval+pipelines+that+cite+their+sources;Contrastive+speech+embeddings+for+phoneme+scoring;FastAPI+%2B+serverless+GPU+inference;Production+ML+%E2%80%94+not+just+notebooks" alt="">
 </p>
 
 <p align="center">
-  BS Computer Science (Data Science) — NED University of Engineering &amp; Technology
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/huzaifa-salman-0539602a8">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://www.kaggle.com/huzaifanvm">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
-  </a>
+  <a href="https://www.linkedin.com/in/huzaifa-salman-0539602a8"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.kaggle.com/huzaifanvm"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"></a>
   <img src="https://komarev.com/ghpvc/?username=HUZAIFANVM&label=Profile%20views&color=22d3ee&style=for-the-badge" alt="views">
 </p>
 
+<p align="center"><sub>BS Computer Science (Data Science) — NED University of Engineering &amp; Technology</sub></p>
+
 <br>
 
-<!-- ── About ──────────────────────────────────────────────────────────── -->
-<h3>&nbsp;⚡&nbsp; About</h3>
+## ⚡ About
 
 I build machine learning systems that run in production, not only in notebooks.
 
-My current work spans **RAG and AI orchestration** — retrieval pipelines, LLM applications, multi-step agent workflows — and **applied ML** on speech and audio. Across both, the part I care about is the same: getting models to answer real requests, correctly, inside a real latency budget. Before that I completed an internship in **AI &amp; Data Analytics**, and a run of data-science projects covering EDA, dimensional modelling, and classical ML.
+My current work spans **RAG and AI orchestration** — retrieval pipelines, LLM applications, multi-step agent workflows — and **applied ML** on speech and audio. Across both, the part I care about is the same: getting models to answer real requests, correctly, inside a real latency budget.
+
+Before that I completed an internship in **AI &amp; Data Analytics**, and a run of data-science projects covering EDA, dimensional modelling, and classical ML.
 
 <br>
 
-<!-- ── Focus areas ────────────────────────────────────────────────────── -->
-<h3>&nbsp;🧠&nbsp; Focus areas</h3>
+## 🔎 How I build retrieval
+
+<!-- ── Bespoke animated RAG pipeline (assets/rag-pipeline.svg) ────────── -->
+<img width="100%" src="https://raw.githubusercontent.com/HUZAIFANVM/HUZAIFANVM/main/assets/rag-pipeline.svg" alt="RAG pipeline: query, embed, vector search, rerank, LLM, grounded answer">
+
+<br>
+
+## 🧠 Focus areas
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**RAG &amp; LLM systems**
-<br><sub>Retrieval pipelines · embeddings &amp; vector search · chunking and context design · evaluation of retrieval quality</sub>
+#### RAG &amp; LLM systems
+<sub>Retrieval pipelines · embeddings &amp; vector search · chunking and context design · evaluation of retrieval quality</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**AI orchestration**
-<br><sub>Multi-step agent workflows · tool calling · LangChain-based pipelines</sub>
+#### AI orchestration
+<sub>Multi-step agent workflows · tool calling · LangChain-based pipelines</sub>
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-**AI / ML engineering**
-<br><sub>FastAPI services · serverless GPU inference · latency profiling · deployment and evaluation pipelines</sub>
+#### AI / ML engineering
+<sub>FastAPI services · serverless GPU inference · latency profiling · deployment and evaluation pipelines</sub>
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
-**Speech &amp; audio ML**
-<br><sub>wav2vec2 / XLSR-53 representations · contrastive fine-tuning · DTW alignment · phoneme-level scoring</sub>
+#### Speech &amp; audio ML
+<sub>wav2vec2 / XLSR-53 representations · contrastive fine-tuning · DTW alignment · phoneme-level scoring</sub>
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-**Data science &amp; BI**
-<br><sub>ETL pipelines · star-schema warehouses · Power BI dashboards · classical ML</sub>
+#### Data science &amp; BI
+<sub>ETL pipelines · star-schema warehouses · Power BI dashboards · classical ML</sub>
 
 </td>
 </tr>
@@ -77,8 +75,7 @@ My current work spans **RAG and AI orchestration** — retrieval pipelines, LLM 
 
 <br>
 
-<!-- ── Selected work ──────────────────────────────────────────────────── -->
-<h3>&nbsp;🚀&nbsp; Selected work</h3>
+## 🚀 Selected work
 
 <table>
 <tr><td width="34%"><b>NexusLearn</b><br><sub><i>private</i></sub></td>
@@ -111,8 +108,7 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 
 <br>
 
-<!-- ── Tools ──────────────────────────────────────────────────────────── -->
-<h3>&nbsp;🛠&nbsp; Tools</h3>
+## 🛠 Tools
 
 <table>
 <tr><td><b>LLM / RAG</b></td><td>
@@ -142,8 +138,7 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 
 <br>
 
-<!-- ── Stats ──────────────────────────────────────────────────────────── -->
-<h3>&nbsp;📊&nbsp; Activity</h3>
+## 📊 Activity
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=HUZAIFANVM&hide_border=true&theme=tokyonight&background=00000000&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee" alt="contribution streak">
@@ -156,5 +151,3 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 <br>
 
 <p align="center"><sub>Open to collaborating on RAG, LLM and applied ML projects.</sub></p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="footer">
