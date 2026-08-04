@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 388" width="1200" height="388" role="img" aria-label="Capability map: classical ML (random forest, XGBoost, k-means), speech ML (XLSR-53, contrastive, cosine DTW) and RAG (embed, vector search, rerank, LLM) feeding an AI orchestration layer that serves a production API.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#0a1622"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".16"/>
+      <stop offset="45%" stop-color="#22d3ee" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="388" fill="url(#bg)"/>
+  <path d="M0 0V388 M34 0V388 M68 0V388 M102 0V388 M136 0V388 M170 0V388 M204 0V388 M238 0V388 M272 0V388 M306 0V388 M340 0V388 M374 0V388 M408 0V388 M442 0V388 M476 0V388 M510 0V388 M544 0V388 M578 0V388 M612 0V388 M646 0V388 M680 0V388 M714 0V388 M748 0V388 M782 0V388 M816 0V388 M850 0V388 M884 0V388 M918 0V388 M952 0V388 M986 0V388 M1020 0V388 M1054 0V388 M1088 0V388 M1122 0V388 M1156 0V388 M1190 0V388 M0 0H1200 M0 34H1200 M0 68H1200 M0 102H1200 M0 136H1200 M0 170H1200 M0 204H1200 M0 238H1200 M0 272H1200 M0 306H1200 M0 340H1200 M0 374H1200" stroke="#22d3ee" stroke-opacity=".045" stroke-width="1" fill="none"/>
+  <ellipse cx="627.0" cy="183.0" rx="215" ry="150" fill="url(#halo)"/>
+  <rect x="46" y="26" width="342" height="88" rx="13" fill="#22d3ee" fill-opacity=".045" stroke="#22d3ee" stroke-opacity=".3" stroke-width="1.2"/>
+  <text x="64" y="51" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#22d3ee" letter-spacing="1.4">CLASSICAL ML</text>
+  <rect x="64" y="66" width="117" height="31" rx="8" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="0.00s" repeatCount="indefinite"/>
+  </rect>
+  <text x="122" y="86" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">Random Forest</text>
+  <rect x="190" y="66" width="73" height="31" rx="8" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="0.35s" repeatCount="indefinite"/>
+  </rect>
+  <text x="226" y="86" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">XGBoost</text>
+  <rect x="272" y="66" width="73" height="31" rx="8" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="0.70s" repeatCount="indefinite"/>
+  </rect>
+  <text x="309" y="86" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">K-Means</text>
+  <path id="c0" d="M388 70 C454 70 454 183 520 183" fill="none" stroke="#22d3ee" stroke-opacity=".33" stroke-width="1.4"/>
+  <circle r="4" fill="#22d3ee" filter="url(#glow)">
+    <animateMotion dur="2.5s" begin="0.00s" repeatCount="indefinite"><mpath href="#c0"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="0.00s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="46" y="138" width="342" height="88" rx="13" fill="#22d3ee" fill-opacity=".045" stroke="#22d3ee" stroke-opacity=".3" stroke-width="1.2"/>
+  <text x="64" y="163" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#22d3ee" letter-spacing="1.4">SPEECH ML</text>
+  <rect x="64" y="178" width="73" height="31" rx="8" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="0.50s" repeatCount="indefinite"/>
+  </rect>
+  <text x="101" y="198" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">XLSR-53</text>
+  <rect x="146" y="178" width="102" height="31" rx="8" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="0.85s" repeatCount="indefinite"/>
+  </rect>
+  <text x="197" y="198" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">Contrastive</text>
+  <rect x="257" y="178" width="95" height="31" rx="8" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="1.20s" repeatCount="indefinite"/>
+  </rect>
+  <text x="305" y="198" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">Cosine-DTW</text>
+  <path id="c1" d="M388 182 C454 182 454 183 520 183" fill="none" stroke="#22d3ee" stroke-opacity=".33" stroke-width="1.4"/>
+  <circle r="4" fill="#22d3ee" filter="url(#glow)">
+    <animateMotion dur="2.5s" begin="0.55s" repeatCount="indefinite"><mpath href="#c1"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="0.55s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="46" y="250" width="342" height="88" rx="13" fill="#a78bfa" fill-opacity=".045" stroke="#a78bfa" stroke-opacity=".3" stroke-width="1.2"/>
+  <text x="64" y="275" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#a78bfa" letter-spacing="1.4">RAG</text>
+  <rect x="64" y="290" width="58" height="31" rx="8" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="1.00s" repeatCount="indefinite"/>
+  </rect>
+  <text x="93" y="310" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">Embed</text>
+  <rect x="132" y="290" width="117" height="31" rx="8" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="1.35s" repeatCount="indefinite"/>
+  </rect>
+  <text x="190" y="310" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">Vector search</text>
+  <rect x="257" y="290" width="66" height="31" rx="8" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="1.70s" repeatCount="indefinite"/>
+  </rect>
+  <text x="290" y="310" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">Rerank</text>
+  <rect x="332" y="290" width="44" height="31" rx="8" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".4" stroke-width="1">
+    <animate attributeName="stroke-opacity" values=".22;.85;.22" dur="4.6s" begin="2.05s" repeatCount="indefinite"/>
+  </rect>
+  <text x="354" y="310" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" fill="#e2e8f0">LLM</text>
+  <path id="c2" d="M388 294 C454 294 454 183 520 183" fill="none" stroke="#a78bfa" stroke-opacity=".33" stroke-width="1.4"/>
+  <circle r="4" fill="#a78bfa" filter="url(#glow)">
+    <animateMotion dur="2.5s" begin="1.10s" repeatCount="indefinite"><mpath href="#c2"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" begin="1.10s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="520" y="108" width="214" height="150" rx="15" fill="#a78bfa" fill-opacity=".08" stroke="#a78bfa" stroke-opacity=".55" stroke-width="1.6">
+    <animate attributeName="stroke-opacity" values=".35;.95;.35" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="627.0" y="161.0" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#e2e8f0">AI Orchestration</text>
+  <rect x="593.0" y="172.0" width="68" height="2.5" rx="1.2" fill="url(#accent)"/>
+  <text x="627.0" y="203.0" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#cbd5e1">agents &#183; tool calling</text>
+  <text x="627.0" y="223.0" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#cbd5e1">LangChain pipelines</text>
+  <path id="out" d="M734 183 L884 183" fill="none" stroke="#a78bfa" stroke-opacity=".4" stroke-width="1.6"/>
+  <circle r="4.2" fill="#a78bfa" filter="url(#glow)">
+    <animateMotion dur="1.9s" begin="0.00s" repeatCount="indefinite"><mpath href="#out"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.9s" begin="0.00s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4.2" fill="#a78bfa" filter="url(#glow)">
+    <animateMotion dur="1.9s" begin="0.95s" repeatCount="indefinite"><mpath href="#out"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.9s" begin="0.95s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="884" y="126" width="250" height="114" rx="14" fill="#22d3ee" fill-opacity=".07" stroke="#22d3ee" stroke-opacity=".5" stroke-width="1.5"/>
+  <text x="1009.0" y="177.0" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">In production</text>
+  <text x="1009.0" y="201.0" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#cbd5e1">FastAPI &#183; serverless GPU</text>
+  <text x="600.0" y="372" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#cbd5e1" fill-opacity=".72">classical ML, speech models and retrieval &#8212; orchestrated behind one API, not left in notebooks</text>
+</svg>

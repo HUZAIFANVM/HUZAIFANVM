@@ -25,10 +25,10 @@ Before that I completed an internship in **AI &amp; Data Analytics**, and a run 
 
 <br>
 
-## 🔎 How I build retrieval
+## 🔎 How I build
 
-<!-- ── Bespoke animated RAG pipeline (assets/rag-pipeline.svg) ────────── -->
-<img width="100%" src="https://raw.githubusercontent.com/HUZAIFANVM/HUZAIFANVM/main/assets/rag-pipeline.svg" alt="RAG pipeline: query, embed, vector search, rerank, LLM, grounded answer">
+<!-- Bespoke animated capability map (assets/ai-stack.svg) -->
+<img width="100%" src="https://raw.githubusercontent.com/HUZAIFANVM/HUZAIFANVM/main/assets/ai-stack.svg" alt="Capability map: classical ML, speech ML and RAG feeding an AI orchestration layer that serves a production API">
 
 <br>
 
