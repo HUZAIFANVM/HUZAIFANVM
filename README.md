@@ -1,5 +1,5 @@
 <!-- ── Bespoke animated hero (assets/hero.svg, hand-authored SMIL) ────── -->
-<img width="100%" src="https://raw.githubusercontent.com/HUZAIFANVM/HUZAIFANVM/main/assets/hero.svg" alt="Muhammad Huzaifa bin Salman — Junior AI Engineer">
+<img width="100%" src="https://raw.githubusercontent.com/HUZAIFANVM/HUZAIFANVM/main/assets/hero.svg?v=2" alt="Muhammad Huzaifa bin Salman — Junior AI Engineer">
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=760&lines=Retrieval+pipelines+that+cite+their+sources;Contrastive+speech+embeddings+for+phoneme+scoring;FastAPI+%2B+serverless+GPU+inference;Production+ML+%E2%80%94+not+just+notebooks" alt="">
