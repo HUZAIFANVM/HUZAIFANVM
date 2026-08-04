@@ -1,7 +1,11 @@
-<h1 align="center">Muhammad Huzaifa bin Salman</h1>
+<!-- ── Animated header banner ─────────────────────────────────────────── -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Muhammad%20Huzaifa%20bin%20Salman&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Junior%20AI%20Engineer&descAlignY=56&descSize=18" alt="header">
 
+<!-- ── Animated typing line ───────────────────────────────────────────── -->
 <p align="center">
-  <b>Junior AI Engineer</b> &nbsp;·&nbsp; RAG &amp; AI Orchestration &nbsp;·&nbsp; Applied Machine Learning
+  <a href="https://github.com/HUZAIFANVM">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=720&lines=RAG+%26+AI+Orchestration;Retrieval+pipelines+and+LLM+applications;Speech+%26+Applied+Machine+Learning;Production+ML+%E2%80%94+not+just+notebooks" alt="typing">
+  </a>
 </p>
 
 <p align="center">
@@ -10,34 +14,71 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/huzaifa-salman-0539602a8">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://www.kaggle.com/huzaifanvm">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
   </a>
+  <img src="https://komarev.com/ghpvc/?username=HUZAIFANVM&label=Profile%20views&color=22d3ee&style=for-the-badge" alt="views">
 </p>
 
----
+<br>
+
+<!-- ── About ──────────────────────────────────────────────────────────── -->
+<h3>&nbsp;⚡&nbsp; About</h3>
 
 I build machine learning systems that run in production, not only in notebooks.
 
 My current work spans **RAG and AI orchestration** — retrieval pipelines, LLM applications, multi-step agent workflows — and **applied ML** on speech and audio. Across both, the part I care about is the same: getting models to answer real requests, correctly, inside a real latency budget. Before that I completed an internship in **AI &amp; Data Analytics**, and a run of data-science projects covering EDA, dimensional modelling, and classical ML.
 
-### Focus areas
+<br>
 
-**RAG &amp; LLM systems** — retrieval pipelines, embeddings and vector search, chunking and context design, evaluation of retrieval quality
+<!-- ── Focus areas ────────────────────────────────────────────────────── -->
+<h3>&nbsp;🧠&nbsp; Focus areas</h3>
 
-**AI orchestration** — multi-step agent workflows, tool calling, LangChain-based pipelines
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**AI / ML engineering** — FastAPI services, serverless GPU inference, latency profiling, deployment and evaluation pipelines
+**RAG &amp; LLM systems**
+<br><sub>Retrieval pipelines · embeddings &amp; vector search · chunking and context design · evaluation of retrieval quality</sub>
 
-**Speech &amp; audio ML** — wav2vec2 / XLSR-53 representations, contrastive fine-tuning, DTW alignment, phoneme-level scoring
+</td>
+<td width="50%" valign="top">
 
-**Data science &amp; BI** — ETL pipelines, star-schema warehouses, Power BI dashboards, classical ML
+**AI orchestration**
+<br><sub>Multi-step agent workflows · tool calling · LangChain-based pipelines</sub>
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### Selected work
+**AI / ML engineering**
+<br><sub>FastAPI services · serverless GPU inference · latency profiling · deployment and evaluation pipelines</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Speech &amp; audio ML**
+<br><sub>wav2vec2 / XLSR-53 representations · contrastive fine-tuning · DTW alignment · phoneme-level scoring</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**Data science &amp; BI**
+<br><sub>ETL pipelines · star-schema warehouses · Power BI dashboards · classical ML</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ── Selected work ──────────────────────────────────────────────────── -->
+<h3>&nbsp;🚀&nbsp; Selected work</h3>
 
 <table>
 <tr><td width="34%"><b>NexusLearn</b><br><sub><i>private</i></sub></td>
@@ -66,44 +107,54 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 <tr><td><b><a href="https://github.com/HUZAIFANVM/Book-Recommendation-System">Book Recommendation System</a></b></td>
 <td>Collaborative-filtering recommender with precomputed item-similarity matrices, served through a Python app.<br><br>
 <sub><code>pandas</code> <code>scikit-learn</code> <code>Streamlit</code></sub></td></tr>
-
-<tr><td><b><a href="https://github.com/HUZAIFANVM/Customer-Segmentation">Customer Segmentation</a></b></td>
-<td>K-means clustering over customer behaviour features, with the fitted model persisted for serving.<br><br>
-<sub><code>scikit-learn</code> <code>pandas</code> <code>Streamlit</code></sub></td></tr>
 </table>
 
----
+<br>
 
-### Tools
+<!-- ── Tools ──────────────────────────────────────────────────────────── -->
+<h3>&nbsp;🛠&nbsp; Tools</h3>
 
-**LLM / RAG** &nbsp;
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+<table>
+<tr><td><b>LLM / RAG</b></td><td>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
+<img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
+</td></tr>
+<tr><td><b>ML / DL</b></td><td>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+</td></tr>
+<tr><td><b>Data</b></td><td>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black">
+</td></tr>
+<tr><td><b>Serving / deploy</b></td><td>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Modal-7FEE64?style=flat-square&logo=modal&logoColor=black">
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
+</td></tr>
+</table>
 
-**ML / DL** &nbsp;
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+<br>
 
-**Data** &nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+<!-- ── Stats ──────────────────────────────────────────────────────────── -->
+<h3>&nbsp;📊&nbsp; Activity</h3>
 
-**Serving / deploy** &nbsp;
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Modal](https://img.shields.io/badge/Modal-7FEE64?style=flat-square&logo=modal&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=HUZAIFANVM&hide_border=true&theme=tokyonight&background=00000000&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee" alt="contribution streak">
+</p>
 
----
+<p align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=HUZAIFANVM&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=9ca3af&line=22d3ee&point=ffffff" alt="activity graph">
+</p>
 
-<div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=HUZAIFANVM&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&count_private=true" alt="stats">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HUZAIFANVM&layout=compact&hide_border=true&langs_count=7" alt="top languages">
-</div>
+<br>
 
-<p align="center"><sub>Open to collaborating on applied ML and speech projects.</sub></p>
+<p align="center"><sub>Open to collaborating on RAG, LLM and applied ML projects.</sub></p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="footer">
