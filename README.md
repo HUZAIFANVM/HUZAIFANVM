@@ -1,7 +1,7 @@
 <h1 align="center">Muhammad Huzaifa bin Salman</h1>
 
 <p align="center">
-  <b>Junior AI Engineer</b> &nbsp;·&nbsp; Speech &amp; Applied Machine Learning
+  <b>Junior AI Engineer</b> &nbsp;·&nbsp; RAG &amp; AI Orchestration &nbsp;·&nbsp; Applied Machine Learning
 </p>
 
 <p align="center">
@@ -21,13 +21,17 @@
 
 I build machine learning systems that run in production, not only in notebooks.
 
-My current work is in **speech and audio ML** — self-supervised representations, metric learning, and getting models to answer real requests inside a real latency budget. Before that I completed an internship in **AI &amp; Data Analytics**, and a run of data-science projects covering EDA, dimensional modelling, and classical ML.
+My current work spans **RAG and AI orchestration** — retrieval pipelines, LLM applications, multi-step agent workflows — and **applied ML** on speech and audio. Across both, the part I care about is the same: getting models to answer real requests, correctly, inside a real latency budget. Before that I completed an internship in **AI &amp; Data Analytics**, and a run of data-science projects covering EDA, dimensional modelling, and classical ML.
 
 ### Focus areas
 
-**Speech &amp; audio ML** — wav2vec2 / XLSR-53 representations, contrastive fine-tuning, DTW alignment, phoneme-level scoring
+**RAG &amp; LLM systems** — retrieval pipelines, embeddings and vector search, chunking and context design, evaluation of retrieval quality
 
-**ML engineering** — FastAPI services, serverless GPU inference, latency profiling, deployment and evaluation pipelines
+**AI orchestration** — multi-step agent workflows, tool calling, LangChain-based pipelines
+
+**AI / ML engineering** — FastAPI services, serverless GPU inference, latency profiling, deployment and evaluation pipelines
+
+**Speech &amp; audio ML** — wav2vec2 / XLSR-53 representations, contrastive fine-tuning, DTW alignment, phoneme-level scoring
 
 **Data science &amp; BI** — ETL pipelines, star-schema warehouses, Power BI dashboards, classical ML
 
@@ -36,7 +40,12 @@ My current work is in **speech and audio ML** — self-supervised representation
 ### Selected work
 
 <table>
-<tr><td width="34%"><b>Arabic Qaida Pronunciation Scorer</b><br><sub><i>private</i></sub></td>
+<tr><td width="34%"><b>NexusLearn</b><br><sub><i>private</i></sub></td>
+<td>A RAG-powered, AI-native corporate <b>learning management system</b>, built around <b>nine AI-driven features</b> layered over an organisation's own training content.<br><br>
+Retrieval-augmented generation grounds every response in the organisation's material rather than relying on free-form model output — the difference between an assistant that cites your handbook and one that invents plausible policy.<br><br>
+<sub><code>RAG</code> <code>LLM</code> <code>LangChain</code></sub></td></tr>
+
+<tr><td><b>Arabic Qaida Pronunciation Scorer</b><br><sub><i>private</i></sub></td>
 <td>Scores a learner's recitation against a teacher's reference at phoneme level — including the short vowel marks (<i>harakat</i>) that ordinary speech-to-text discards.<br><br>
 Contrastive-fine-tuned <b>XLSR-53</b> embeddings with frame-level cosine <b>DTW</b> alignment and per-lesson decision thresholds, over 692 reference recordings across 16 lessons. An initial Whisper transcription approach was measured, shown to be structurally unable to represent the target distinctions, and replaced with metric learning.<br><br>
 Served as serverless GPU inference with automatic CPU fallback. Profiling the CPU path found an <code>fp16</code> cast that x86 emulates rather than accelerates — removing it cut latency <b>4.3s → 0.30s</b> with identical embeddings.<br><br>
@@ -67,10 +76,13 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 
 ### Tools
 
+**LLM / RAG** &nbsp;
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
 **ML / DL** &nbsp;
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
 **Data** &nbsp;
