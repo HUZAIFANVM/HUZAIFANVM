@@ -78,12 +78,12 @@ Before that I completed an internship in **AI &amp; Data Analytics**, and a run 
 ## 🚀 Selected work
 
 <table>
-<tr><td width="34%"><b>NexusLearn</b><br><sub><i>private</i></sub></td>
+<tr><td width="34%"><b><a href="https://github.com/HUZAIFANVM/nexuslearn">NexusLearn</a></b></td>
 <td>A RAG-powered, AI-native corporate <b>learning management system</b>, built around <b>nine AI-driven features</b> layered over an organisation's own training content.<br><br>
 Retrieval-augmented generation grounds every response in the organisation's material rather than relying on free-form model output — the difference between an assistant that cites your handbook and one that invents plausible policy.<br><br>
 <sub><code>RAG</code> <code>LLM</code> <code>LangChain</code></sub></td></tr>
 
-<tr><td><b>Arabic Qaida Pronunciation Scorer</b><br><sub><i>private</i></sub></td>
+<tr><td><b><a href="https://github.com/HUZAIFANVM/qaida-project">Arabic Qaida Pronunciation Scorer</a></b></td>
 <td>Scores a learner's recitation against a teacher's reference at phoneme level — including the short vowel marks (<i>harakat</i>) that ordinary speech-to-text discards.<br><br>
 Contrastive-fine-tuned <b>XLSR-53</b> embeddings with frame-level cosine <b>DTW</b> alignment and per-lesson decision thresholds, over 692 reference recordings across 16 lessons. An initial Whisper transcription approach was measured, shown to be structurally unable to represent the target distinctions, and replaced with metric learning.<br><br>
 Served as serverless GPU inference with automatic CPU fallback. Profiling the CPU path found an <code>fp16</code> cast that x86 emulates rather than accelerates — removing it cut latency <b>4.3s → 0.30s</b> with identical embeddings.<br><br>
@@ -142,10 +142,6 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=HUZAIFANVM&hide_border=true&theme=tokyonight&background=00000000&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee" alt="contribution streak">
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=HUZAIFANVM&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=9ca3af&line=22d3ee&point=ffffff" alt="activity graph">
 </p>
 
 <br>
