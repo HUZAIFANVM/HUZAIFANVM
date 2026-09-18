@@ -138,12 +138,6 @@ Served as serverless GPU inference with automatic CPU fallback. Profiling the CP
 
 <br>
 
-## 📊 Activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=HUZAIFANVM&hide_border=true&theme=tokyonight&background=00000000&ring=22d3ee&fire=22d3ee&currStreakLabel=22d3ee" alt="contribution streak">
-</p>
-
 <br>
 
 <p align="center"><sub>Open to collaborating on RAG, LLM and applied ML projects.</sub></p>
